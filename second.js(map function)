@@ -1,0 +1,35 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+const users=[
+    {
+        id:1,
+        name:"Ajay",
+        isActive: true,
+        age:20
+    },
+    {
+        id:2,
+        name:"Vijay",
+        isActive: false,
+        age:30
+    },
+    {
+        id:3,
+        name:"Sanjay",
+        isActive: true,
+        age:40
+    },
+    {
+        id:4,
+        name:"Raj",
+        isActive: false,
+        age:50
+    },
+];
+//users.forEach((user)=>{
+ //   if(user.isActive){
+    //console.log(user.name);
+  //  }
+    
+    const names1=users.filter((user)=>user.isActive).map((user)=>user.name);
+    console.log(names1);
