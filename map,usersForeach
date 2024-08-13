@@ -1,0 +1,51 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+const companies=[
+    {name:"google",category:"product based",start:1981,end:2004},
+    {name:"Amazon",category:"Product based",start:1992,end:2008},
+    {name:"paytm",category:"product based",start:1999,end:2007},
+    {name:"Mindtree",category:"service based",start:1989,end:2010},
+    
+    ];
+    const ages=[33,12,21,12,45,32,12,12,44,22,4];
+    
+    //companies.forEach(function(company){
+      //  console.log(company);
+    //});
+    
+    //filter
+    /*for(let i=0;i<age.length;i++){
+        if(age[i]>20){
+            console.log(age[i]);
+        }
+    }
+    */
+    
+   /* ages.forEach(function(age){
+        if(age>20){
+        console.log(age);
+        }
+    });
+    */
+   /* const age = ages.filter(function(age){
+        if(age>=20){
+          return true; 
+        }
+    })
+    console.log(age);
+    
+   
+   const finalAge=ages.filter(age => age>=20)
+       console.log(finalAge);
+   */
+   
+   
+//companies.map(function(company)){
+  //  console.log()
+//})
+ 
+//strign literal
+const dummy = companies.map((company, index) => {
+    return $(company.name); // Selects the element with the selector company.name
+});
+console.log(dummy);
